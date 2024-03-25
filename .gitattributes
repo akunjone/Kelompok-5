@@ -1,5 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+<!--data mahasiswa html-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -290,3 +291,63 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
+<!--css file style.css-->
+.container{
+    width:90%;
+}
+
+body {
+    background-color: #59c2ff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+h2, h3 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #343a40;
+}
+.btn {
+    margin-right: 10px;
+}
+.edit-btn,
+.hapus-btn {
+    padding: 0.25rem 0.6rem;
+    font-size: 0.9rem;
+}
+.alert{
+    display: none;
+    display: flex;
+    padding: 10px; 
+    background-color: #2196F3; 
+    color: rgb(255, 251, 251);
+    margin-bottom: 15px;    
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    max-width: 300px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+}
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.closebtn:hover {
+    color: black;
+}
+.foo{
+    display: none;
+}
+.success {background-color: #4CAF50;}
+.danger {background-color: #f44336;}
+.info {background-color: #2196F3;}
+.warning {background-color: rgb(247, 227, 52);}
